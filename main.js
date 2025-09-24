@@ -12,10 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     header.appendChild(navToggle);
     
     
-    navToggle.addEventListener('click', function() {
-        nav.classList.toggle('active');
-        document.body.classList.toggle('mobile-menu-active');
-    });
+    
     
     
     document.querySelectorAll('nav a').forEach(link => {
@@ -101,3 +98,4 @@ $(document).ready(function() {
   
 
 });
+
