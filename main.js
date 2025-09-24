@@ -12,7 +12,19 @@ document.addEventListener('DOMContentLoaded', function() {
     header.appendChild(navToggle);
     
     
+        navToggle.addEventListener('click', function() {
+        nav.classList.toggle('active');
+        document.body.classList.toggle('mobile-menu-active');
+    });
     
+    
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', () => {
+            nav.classList.remove('active');
+            document.body.classList.remove('mobile-menu-active');
+        });
+    });
+});
     
     
     document.querySelectorAll('nav a').forEach(link => {
@@ -98,4 +110,5 @@ $(document).ready(function() {
   
 
 });
+
 
