@@ -537,3 +537,9 @@ footer {
     overflow: hidden;
 
 }
+nav a.active {
+    color: #00b4db !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 10px rgba(0, 180, 219, 0.5);
+}
+
