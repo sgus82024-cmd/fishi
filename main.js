@@ -98,20 +98,6 @@ $(document).ready(function() {
     });
     
    
-    $('<style>').text(`
-        nav a.active {
-            color: #00b4db !important;
-            background: rgba(255, 255, 255, 0.2) !important;
-            box-shadow: 0 0 10px rgba(0, 180, 219, 0.5);
-        }
-        
-        input::placeholder, textarea::placeholder {
-            color: rgba(255, 255, 255, 0.7) !important;
-        }
-        
-        input:focus, textarea:focus {
-            outline: 2px solid #00b4db;
-            background: rgba(255, 255, 255, 0.15) !important;
-        }
-    `).appendTo('head');
+  
+
 });
